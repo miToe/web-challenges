@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Personal Profile Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Create your Personal Profile</h1>
+    <section aria-labelledby="formTitle">
+      <form>
+        <h2 id="personalInfoHeading">
+          We want to get to know you! Please enter your personal information
+        </h2>
+        <fieldset aria-labelledby="personalInfoHeading">
+          <legend>Personal information</legend>
+          <label for="firstName">First Name:</label>
+          <input
+            id="firstName"
+            type="text"
+            name="firstName"
+            aria-label="First Name"
+          />
+          <label for="lastName">Last Name:</label>
+          <input
+            id="lastName"
+            type="text"
+            name="lastName"
+            aria-label="Last Name"
+          />
+          <label for="birthday">Your Birthday:</label>
+          <input
+            id="birthday"
+            type="date"
+            name="birthday"
+            aria-label="Your Birthday"
+          />
+        </fieldset>
+        <h2 id="furtherInfoHeading">
+          Can you tell us a little bit more? We want to annoy you with unwanted
+          ads
+        </h2>
+        <fieldset aria-labelledby="furtherInfoHeading">
+          <legend>Further information</legend>
+          <label for="favColor">Favourite Color:</label>
+          <input
+            id="favColor"
+            type="color"
+            name="favColor"
+            aria-label="Favorite Color"
+            title="Favorite Color"
+          />
+          <label for="favPet">What's your favorite pet?</label>
+          <select name="favPet" id="favPet" aria-label="Favorite Pet">
+            <option value="hate">I hate pets!</option>
+          </select>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>

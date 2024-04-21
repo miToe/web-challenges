@@ -102,14 +102,14 @@ footer a {
 }
 
 /* 9. These styles should apply to the welcome text */
-h1 > .text {
+h1 + .text {
   outline: 2px dashed red;
   font-size: 1.2rem;
   color: #000000;
 }
 
 /* 10. These styles should apply to the paragraph in the footer */
-footer p {
+footer .text {
   outline: 2px dashed red;
   color: #ffffff;
 }
